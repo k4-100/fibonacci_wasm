@@ -1,5 +1,7 @@
 use wasm_bindgen::prelude::*;
 
+mod utl;
+
 #[wasm_bindgen]
 extern{
     pub fn alert( s: &str );
