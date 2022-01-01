@@ -18,3 +18,8 @@ pub fn greet( name : &str ){
 pub fn console_log( s : &str){
     log( s );
 }
+
+#[wasm_bindgen]
+pub fn display_fibonacci_seq( count : u32 ){
+    log ( utl::get_fibonacci_string(count as usize).as_str() );
+}
