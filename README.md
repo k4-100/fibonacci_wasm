@@ -1,0 +1,1 @@
+### simple template with some minimal boilerplate for wasm nested in html
