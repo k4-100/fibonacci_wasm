@@ -5,12 +5,7 @@
     <title>hello-wasm example</title>
   </head>
   <body>
-    <script type="module">
-      import init, {greet} from "./pkg/hello_wasm.js";
-      init()
-        .then(() => {
-          greet("WebAssembly")
-        });
+    <script type="module" src="main.js">
     </script>
   </body>
 </html>
